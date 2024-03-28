@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "XMwgP7JanWP76LOxlKRAxck8T5Kh4cNcTHIXcxDGwF3suGt1pnP93JmiLiPqym0l+wHKtYs5UpquBpv9zCyx4A==",
+  "dgSpecHash": "3o9aOm7gUYyq8K5qGDkZ1AxPRbBwwwPZx9rvEGF1ii7X2f8rpZmmbnylT+oU6MVZZV3ZmhU0IUcb4kBAKMy+wA==",
   "success": true,
   "projectFilePath": "D:\\Freelance\\Lorby\\Lorby.Application\\Lorby.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\samat\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\samat\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\samat\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\samat\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\samat\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\samat\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\samat\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

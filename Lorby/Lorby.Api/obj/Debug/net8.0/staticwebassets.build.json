@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "v6V0IUPmYRGaiYWXlsR9+Xwgl2tjot2aIj8Suf26hxI=",
+  "Source": "Lorby.Api",
+  "BasePath": "_content/Lorby.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

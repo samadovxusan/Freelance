@@ -1,0 +1,16 @@
+D:\Freelance\Lorby\Lorby.Application\bin\Debug\net8.0\Lorby.Application.deps.json
+D:\Freelance\Lorby\Lorby.Application\bin\Debug\net8.0\Lorby.Application.dll
+D:\Freelance\Lorby\Lorby.Application\bin\Debug\net8.0\Lorby.Application.pdb
+D:\Freelance\Lorby\Lorby.Application\bin\Debug\net8.0\Lorby.Domain.dll
+D:\Freelance\Lorby\Lorby.Application\bin\Debug\net8.0\Lorby.Domain.pdb
+D:\Freelance\Lorby\Lorby.Application\obj\Debug\net8.0\Lorby.Application.csproj.AssemblyReference.cache
+D:\Freelance\Lorby\Lorby.Application\obj\Debug\net8.0\Lorby.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelance\Lorby\Lorby.Application\obj\Debug\net8.0\Lorby.Application.AssemblyInfoInputs.cache
+D:\Freelance\Lorby\Lorby.Application\obj\Debug\net8.0\Lorby.Application.AssemblyInfo.cs
+D:\Freelance\Lorby\Lorby.Application\obj\Debug\net8.0\Lorby.Application.csproj.CoreCompileInputs.cache
+D:\Freelance\Lorby\Lorby.Application\obj\Debug\net8.0\Lorby.Application.sourcelink.json
+D:\Freelance\Lorby\Lorby.Application\obj\Debug\net8.0\Lorby.Ap.2D4BAACD.Up2Date
+D:\Freelance\Lorby\Lorby.Application\obj\Debug\net8.0\Lorby.Application.dll
+D:\Freelance\Lorby\Lorby.Application\obj\Debug\net8.0\refint\Lorby.Application.dll
+D:\Freelance\Lorby\Lorby.Application\obj\Debug\net8.0\Lorby.Application.pdb
+D:\Freelance\Lorby\Lorby.Application\obj\Debug\net8.0\ref\Lorby.Application.dll

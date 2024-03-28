@@ -1,6 +1,0 @@
-@Lorby.Api_HostAddress = http://localhost:5104
-
-GET {{Lorby.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
