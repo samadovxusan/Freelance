@@ -8,10 +8,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Common\Entity\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\Lorby.Application\Lorby.Application.csproj" />
       <ProjectReference Include="..\Lorby.Persistence\Lorby.Persistence.csproj" />
     </ItemGroup>
