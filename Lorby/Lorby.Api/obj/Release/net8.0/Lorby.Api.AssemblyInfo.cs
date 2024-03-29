@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("f17088e8-147b-4536-8a55-263534b6bd26")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lorby.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33728c14fb2c1ec8bc25f2f73b0e815475c2a985")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lorby.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lorby.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

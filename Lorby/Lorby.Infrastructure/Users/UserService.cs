@@ -3,6 +3,7 @@ using Application.Users.Models;
 using Application.Users.UserSevices;
 using AutoMapper;
 using Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using Persistence.DataContext;
 using Persistence.Repositories.Interface;
 
@@ -10,10 +11,11 @@ namespace Infrastructure.Users;
 
 public class UserService(IMapper mapper, IUserRepository userRepository ,AppDbContext appDbContext ): IUserService
 {
-    public ValueTask<IEnumerable<User>> GetUsers( User user)
+    public async ValueTask<IEnumerable<User>> GetUsers()
     {
-        throw new NotImplementedException();
-        
+
+        return await appDbContext.Users.ToListAsync();
+
     }
 
     public ValueTask<User?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default)
@@ -27,11 +29,20 @@ public class UserService(IMapper mapper, IUserRepository userRepository ,AppDbCo
         return userRepository.CreateAsync(result, cancellationToken);
     }
 
-    public ValueTask<User> UpdateAsync(UserDto user, CancellationToken cancellationToken = default)
+    public async ValueTask<User> UpdateAsync(UserDto userDto, Guid id, CancellationToken cancellationToken = default)
     {
-        var result = mapper.Map<User>(user);
-        return userRepository.UpdateAsync(result, cancellationToken);
+        var finduser = await appDbContext.Users.FirstOrDefaultAsync(x => x.Id == id);
+        
+        finduser.Name = userDto.Name;
+        finduser.Email = userDto.Email;
+        finduser.Password = userDto.Password;
+
+        var result  = await userRepository.UpdateAsync(finduser, cancellationToken);
+        return result;
     }
+
+  
+
 
     public  ValueTask<User> DeleteAsync(Guid id, CancellationToken cancellationToken = default)
     {

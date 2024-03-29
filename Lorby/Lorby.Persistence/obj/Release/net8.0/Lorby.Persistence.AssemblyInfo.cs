@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lorby.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33728c14fb2c1ec8bc25f2f73b0e815475c2a985")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lorby.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lorby.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

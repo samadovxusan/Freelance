@@ -114,3 +114,4 @@ D:\Freelance\Lorby\Lorby.Api\obj\Debug\net8.0\refint\Lorby.Api.dll
 D:\Freelance\Lorby\Lorby.Api\obj\Debug\net8.0\Lorby.Api.pdb
 D:\Freelance\Lorby\Lorby.Api\obj\Debug\net8.0\Lorby.Api.genruntimeconfig.cache
 D:\Freelance\Lorby\Lorby.Api\obj\Debug\net8.0\ref\Lorby.Api.dll
+D:\Freelance\Lorby\Lorby.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.Design.dll

@@ -110,7 +110,7 @@ public abstract class EntityRepositoryBase<TEntity, TContext>(
     )
     {
         await DbContext.Set<TEntity>().AddAsync(entity, cancellationToken);
-        await DbContext.SaveChangesAsync();
+        await DbContext.SaveChangesAsync( cancellationToken);
         return entity;
     }
 

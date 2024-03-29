@@ -13,7 +13,7 @@ public static partial class  HostConfigurations
     private static WebApplicationBuilder AddPersistence(this WebApplicationBuilder builder)
     {
         builder.Services.AddDbContext<AppDbContext>(options =>
-            options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+            options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnectionString")));
         return builder;
     }
     private static WebApplicationBuilder AddIdentityInfrastructure(this WebApplicationBuilder builder)

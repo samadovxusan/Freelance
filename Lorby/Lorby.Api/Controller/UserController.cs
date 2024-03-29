@@ -10,9 +10,9 @@ namespace Lorby.Api.Controller;
 public class UserController(IUserService userService) : ControllerBase
 {
     [HttpGet]
-    public async Task<IActionResult> GetUsers(User user)
+    public async Task<IActionResult> GetUsers()
     {
-        var users = await userService.GetUsers(user);
+        var users = await userService.GetUsers();
         return Ok(users);
     }
 
@@ -31,9 +31,9 @@ public class UserController(IUserService userService) : ControllerBase
     }
 
     [HttpPut]
-    public async Task<IActionResult> Update([FromBody] UserDto user)
+    public async Task<IActionResult> Update([FromForm] UserDto user, Guid id, CancellationToken cancellationToken = default)
     {
-        var result = await userService.UpdateAsync(user);
+        var result = await userService.UpdateAsync(user, id, cancellationToken);
         return Ok(result);
     }
     [HttpDelete]
