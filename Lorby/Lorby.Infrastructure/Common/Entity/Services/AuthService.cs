@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Application.Users.Models;
+using AutoMapper;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -9,12 +10,13 @@ namespace Infrastructure.Common.Entity.Services;
 
 public class AuthService(AppDbContext dbContext, IMapper mapper, IConfiguration configuration): IAuthService
 {
-    public async  ValueTask<bool> Register(Register register)
+    public async  ValueTask<bool> Register(UserDto register)
     {
         try
         {
             var user = mapper.Map<User>(register);
             await dbContext.Users.AddAsync(user);
+            await dbContext.SaveChangesAsync(); 
             return true;
         }
         catch (Exception e)

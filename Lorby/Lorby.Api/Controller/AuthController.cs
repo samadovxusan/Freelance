@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using Application.Users.Models;
+using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Persistence.Repositories.Interface;
 
@@ -9,8 +10,9 @@ namespace Lorby.Api.Controller;
 public class AuthController(IAuthService authService) : ControllerBase
 {
     [HttpPost]
-    public async Task<IActionResult> Register(Register register)
+    public async Task<IActionResult> Register(UserDto register)
     {
+        
         var result = await authService.Register(register);
         return Ok(result);
     }

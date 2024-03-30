@@ -1,12 +1,14 @@
 ﻿using Application.Users.Models;
 using Application.Users.UserSevices;
 using Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Lorby.Api.Controller;
 
 [Route("api/[controller]/[action]")]
 [ApiController]
+[Authorize]
 public class UserController(IUserService userService) : ControllerBase
 {
     [HttpGet]
