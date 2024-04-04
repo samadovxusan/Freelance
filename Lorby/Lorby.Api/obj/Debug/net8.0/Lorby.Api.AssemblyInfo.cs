@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lorby.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30e4ce6a0866270c931da80a12f01cf03e7089f4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b38674cac8bc2feb498ba0d209f729de5c38dca6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lorby.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lorby.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
