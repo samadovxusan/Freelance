@@ -1,0 +1,6 @@
+@IdentityConfiguration_HostAddress = http://localhost:5147
+
+GET {{IdentityConfiguration_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
