@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using System.Text;
+using Identity.Api.Middilware;
 using Identity.Application.Common.Identity.Service;
 using Identity.Domain.Common.Entities;
 using Identity.Persistence.DataContext;
@@ -117,6 +118,7 @@ public static partial class  HostConfiguration
 
     private static WebApplication UseExposers(this WebApplication app)
     {
+        app.UseMiddleware<GlobalExceptionHandlingMiddlewareConventional>();
         app.UseAuthentication();
         app.UseAuthorization();
         app.MapControllers();
