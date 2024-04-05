@@ -1,4 +1,6 @@
-﻿namespace Domain.Enum;
+﻿using Domain.Common;
+
+namespace Domain.Enum;
 
 public enum RoleType
 {

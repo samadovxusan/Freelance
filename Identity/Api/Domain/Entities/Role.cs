@@ -2,7 +2,7 @@
 
 namespace Domain.Common.Entities;
 
-public class Role
+public class Role:IEntity
 {
     
     public Guid Id { get; set; }
