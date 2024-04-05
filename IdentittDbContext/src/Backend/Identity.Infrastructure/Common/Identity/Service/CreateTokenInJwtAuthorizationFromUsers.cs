@@ -13,7 +13,7 @@ public class CreateTokenInJwtAuthorizationFromUsers
     public static string CreateToken(User user, List<Claim> claims)
     {
         claims.Add(new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()));
-
+        claims.Add(new Claim("Name" , user.UserName));
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("asfsafsasafjsafjksafksafsafsafsafasfasfafasfsafasfsafsafassaf"));
 
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);

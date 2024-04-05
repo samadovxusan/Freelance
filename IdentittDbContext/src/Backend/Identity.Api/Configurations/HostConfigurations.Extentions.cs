@@ -30,6 +30,7 @@ public static partial class  HostConfiguration
         builder.Services.AddDbContext<AppDbContext>(options =>
         {
             options.UseNpgsql(dbConnectionString);
+            options.EnableSensitiveDataLogging();
         });
         builder.Services.AddIdentity<User, IdentityRole>(options =>
                {

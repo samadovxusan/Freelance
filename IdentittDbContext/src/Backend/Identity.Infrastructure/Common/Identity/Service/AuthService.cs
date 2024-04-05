@@ -31,6 +31,7 @@ public class AuthService(IUserRepository userRepository,UserManager<User> userMa
     {
         var user = new User
         {
+            Id = new Guid(),
             UserName = signInDetails.Name,
             Email = signInDetails.Email,
         };

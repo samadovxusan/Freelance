@@ -1,0 +1,13 @@
+D:\Freelance\IdentittDbContext\src\Backend\Identity.Domain\bin\Debug\net8.0\Identity.Domain.deps.json
+D:\Freelance\IdentittDbContext\src\Backend\Identity.Domain\bin\Debug\net8.0\Identity.Domain.dll
+D:\Freelance\IdentittDbContext\src\Backend\Identity.Domain\bin\Debug\net8.0\Identity.Domain.pdb
+D:\Freelance\IdentittDbContext\src\Backend\Identity.Domain\obj\Debug\net8.0\Identity.Domain.csproj.AssemblyReference.cache
+D:\Freelance\IdentittDbContext\src\Backend\Identity.Domain\obj\Debug\net8.0\Identity.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelance\IdentittDbContext\src\Backend\Identity.Domain\obj\Debug\net8.0\Identity.Domain.AssemblyInfoInputs.cache
+D:\Freelance\IdentittDbContext\src\Backend\Identity.Domain\obj\Debug\net8.0\Identity.Domain.AssemblyInfo.cs
+D:\Freelance\IdentittDbContext\src\Backend\Identity.Domain\obj\Debug\net8.0\Identity.Domain.csproj.CoreCompileInputs.cache
+D:\Freelance\IdentittDbContext\src\Backend\Identity.Domain\obj\Debug\net8.0\Identity.Domain.sourcelink.json
+D:\Freelance\IdentittDbContext\src\Backend\Identity.Domain\obj\Debug\net8.0\Identity.Domain.dll
+D:\Freelance\IdentittDbContext\src\Backend\Identity.Domain\obj\Debug\net8.0\refint\Identity.Domain.dll
+D:\Freelance\IdentittDbContext\src\Backend\Identity.Domain\obj\Debug\net8.0\Identity.Domain.pdb
+D:\Freelance\IdentittDbContext\src\Backend\Identity.Domain\obj\Debug\net8.0\ref\Identity.Domain.dll
