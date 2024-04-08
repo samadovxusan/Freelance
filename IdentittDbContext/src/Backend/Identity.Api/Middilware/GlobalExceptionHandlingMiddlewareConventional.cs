@@ -8,14 +8,12 @@ public class GlobalExceptionHandlingMiddlewareConventional
 {
     private readonly RequestDelegate _next;
     private readonly ILogger<GlobalExceptionHandlingMiddlewareConventional> _logger;
-
     public GlobalExceptionHandlingMiddlewareConventional(RequestDelegate next,
                                                          ILogger<GlobalExceptionHandlingMiddlewareConventional> logger)
     {
         _next = next;
         _logger = logger;
     }
-
       public async Task InvokeAsync(HttpContext context)
     {
         //500 ServerError
