@@ -12,6 +12,7 @@ namespace Lorby.Api.Controller;
 public class UserController(IUserService userService) : ControllerBase
 {
     [HttpGet]
+    [ResponseCache(Duration = 40)]
     public async Task<IActionResult> GetUsers()
     {
         var users = await userService.GetUsers();

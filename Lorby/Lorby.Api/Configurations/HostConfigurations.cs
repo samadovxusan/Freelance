@@ -5,7 +5,8 @@ public static partial class  HostConfigurations
     public static  ValueTask<WebApplicationBuilder> ConfigureAsnyc(this WebApplicationBuilder builder)
     {
         builder
-            .AddPersistence()   
+            .AddPersistence()
+            .AddCache()
             .AddIdentityInfrastructure()
             .AddDevTools()
             .AddExposers()

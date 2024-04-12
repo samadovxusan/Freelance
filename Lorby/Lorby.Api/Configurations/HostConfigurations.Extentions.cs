@@ -21,6 +21,11 @@ public static partial class  HostConfigurations
             options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnectionString")));
         return builder;
     }
+    private static WebApplicationBuilder AddCache(this WebApplicationBuilder builder)
+    {
+        builder.Services.AddResponseCaching();
+        return builder;
+    }
     private static WebApplicationBuilder AddIdentityInfrastructure(this WebApplicationBuilder builder)
     {
         builder.Services.AddScoped<IUserService,UserService>();
@@ -120,6 +125,7 @@ public static partial class  HostConfigurations
     {
         app.UseAuthentication();
         app.UseAuthorization();
+        app.UseResponseCaching();
         app.MapControllers();
         
         return app;
