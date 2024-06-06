@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IJukT48Qz4zZoqk+iCRRkhIh7q9nZhzV8xHDX6pSdP/RA9rumuK2sHZlSHPKTXv1MLFyN5gg7FvtZbu92/oFow==",
+  "dgSpecHash": "jOFBu3F+7cSedooUSIFaqjqKCKBGt7NvV/JU9EEYSEZhibp+GZf7mXrVPJnuzTA16UkOESPZpzQKHs3Sg1NiJg==",
   "success": true,
-  "projectFilePath": "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Persistence\\StartUp.Persistence.csproj",
+  "projectFilePath": "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Persistence\\StartUp.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samad\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\samad\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UdEqZvphx8qu4WLYFazfTJTXaShTFjf8DXwg6lxiYcBgtD2AA50G8ApCqTyHqYkLKm+3dDcBbVdCorAkqiHkFQ==",
+  "dgSpecHash": "UuZSh82YnUU4Ba3XP8Yzwkdc5CYVTGQXQgTqGbD961K9/ae8sDbBtwN3EumN9bSDvBKmxKSOmysd7K79Yx76Qg==",
   "success": true,
-  "projectFilePath": "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Domain\\StartUp.Domain.csproj",
+  "projectFilePath": "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Domain\\StartUp.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Infrastructure\\StartUp.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Infrastructure\\StartUp.Infrastructure.csproj",
       "projectName": "StartUp.Infrastructure",
-      "projectPath": "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Infrastructure\\StartUp.Infrastructure.csproj",
+      "projectPath": "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Infrastructure\\StartUp.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\samad\\.nuget\\packages\\",
-      "outputPath": "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Infrastructure\\obj\\",
+      "outputPath": "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\samad\\AppData\\Roaming\\NuGet\\NuGet.Config"

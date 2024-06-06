@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Persistence\\StartUp.Persistence.csproj": {}
+    "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Persistence\\StartUp.Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Persistence\\StartUp.Persistence.csproj": {
+    "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Persistence\\StartUp.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Persistence\\StartUp.Persistence.csproj",
+        "projectUniqueName": "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Persistence\\StartUp.Persistence.csproj",
         "projectName": "StartUp.Persistence",
-        "projectPath": "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Persistence\\StartUp.Persistence.csproj",
+        "projectPath": "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Persistence\\StartUp.Persistence.csproj",
         "packagesPath": "C:\\Users\\samad\\.nuget\\packages\\",
-        "outputPath": "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Persistence\\obj\\",
+        "outputPath": "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\samad\\AppData\\Roaming\\NuGet\\NuGet.Config"

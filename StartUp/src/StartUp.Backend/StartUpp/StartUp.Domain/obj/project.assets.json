@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Domain\\StartUp.Domain.csproj",
+      "projectUniqueName": "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Domain\\StartUp.Domain.csproj",
       "projectName": "StartUp.Domain",
-      "projectPath": "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Domain\\StartUp.Domain.csproj",
+      "projectPath": "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Domain\\StartUp.Domain.csproj",
       "packagesPath": "C:\\Users\\samad\\.nuget\\packages\\",
-      "outputPath": "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Domain\\obj\\",
+      "outputPath": "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\samad\\AppData\\Roaming\\NuGet\\NuGet.Config"

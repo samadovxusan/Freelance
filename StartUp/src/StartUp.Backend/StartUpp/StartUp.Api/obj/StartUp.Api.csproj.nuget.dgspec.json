@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Api\\StartUp.Api.csproj": {}
+    "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Api\\StartUp.Api.csproj": {}
   },
   "projects": {
-    "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Api\\StartUp.Api.csproj": {
+    "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Api\\StartUp.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Api\\StartUp.Api.csproj",
+        "projectUniqueName": "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Api\\StartUp.Api.csproj",
         "projectName": "StartUp.Api",
-        "projectPath": "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Api\\StartUp.Api.csproj",
+        "projectPath": "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Api\\StartUp.Api.csproj",
         "packagesPath": "C:\\Users\\samad\\.nuget\\packages\\",
-        "outputPath": "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Api\\obj\\",
+        "outputPath": "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\samad\\AppData\\Roaming\\NuGet\\NuGet.Config"
