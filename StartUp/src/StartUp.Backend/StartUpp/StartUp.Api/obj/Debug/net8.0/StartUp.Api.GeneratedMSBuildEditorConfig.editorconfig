@@ -9,11 +9,19 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StartUp.Api
 build_property.RootNamespace = StartUp.Api
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Api\
+=======
+build_property.ProjectDir = C:\Job\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Api\
+>>>>>>> ed9f5cb9d84fa6fb0e0e94ef15bbbe4b6b6ad267
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Api
+=======
+build_property.MSBuildProjectDirectory = C:\Job\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Api
+>>>>>>> ed9f5cb9d84fa6fb0e0e94ef15bbbe4b6b6ad267
 build_property._RazorSourceGeneratorDebug = 
