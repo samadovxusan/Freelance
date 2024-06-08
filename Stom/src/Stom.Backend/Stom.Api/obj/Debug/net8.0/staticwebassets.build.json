@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2v8WABXzS8u4BxvAy4HRJ7BdZmf/D87ZJQrqpwsmVYQ=",
+  "Source": "Stom.Api",
+  "BasePath": "_content/Stom.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

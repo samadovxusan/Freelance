@@ -1,0 +1,15 @@
+C:\Users\samad\RiderProjects\Stom.Persistence\bin\Debug\net8.0\Stom.Persistence.deps.json
+C:\Users\samad\RiderProjects\Stom.Persistence\bin\Debug\net8.0\Stom.Persistence.dll
+C:\Users\samad\RiderProjects\Stom.Persistence\bin\Debug\net8.0\Stom.Persistence.pdb
+C:\Users\samad\RiderProjects\Stom.Persistence\bin\Debug\net8.0\Stom.Domain.dll
+C:\Users\samad\RiderProjects\Stom.Persistence\bin\Debug\net8.0\Stom.Domain.pdb
+C:\Users\samad\RiderProjects\Stom.Persistence\obj\Debug\net8.0\Stom.Persistence.csproj.AssemblyReference.cache
+C:\Users\samad\RiderProjects\Stom.Persistence\obj\Debug\net8.0\Stom.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samad\RiderProjects\Stom.Persistence\obj\Debug\net8.0\Stom.Persistence.AssemblyInfoInputs.cache
+C:\Users\samad\RiderProjects\Stom.Persistence\obj\Debug\net8.0\Stom.Persistence.AssemblyInfo.cs
+C:\Users\samad\RiderProjects\Stom.Persistence\obj\Debug\net8.0\Stom.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\samad\RiderProjects\Stom.Persistence\obj\Debug\net8.0\Stom.Per.54541CCF.Up2Date
+C:\Users\samad\RiderProjects\Stom.Persistence\obj\Debug\net8.0\Stom.Persistence.dll
+C:\Users\samad\RiderProjects\Stom.Persistence\obj\Debug\net8.0\refint\Stom.Persistence.dll
+C:\Users\samad\RiderProjects\Stom.Persistence\obj\Debug\net8.0\Stom.Persistence.pdb
+C:\Users\samad\RiderProjects\Stom.Persistence\obj\Debug\net8.0\ref\Stom.Persistence.dll

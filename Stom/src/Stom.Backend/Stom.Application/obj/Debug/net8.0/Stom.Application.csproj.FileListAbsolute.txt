@@ -1,0 +1,15 @@
+C:\Users\samad\RiderProjects\Stom.Application\bin\Debug\net8.0\Stom.Application.deps.json
+C:\Users\samad\RiderProjects\Stom.Application\bin\Debug\net8.0\Stom.Application.dll
+C:\Users\samad\RiderProjects\Stom.Application\bin\Debug\net8.0\Stom.Application.pdb
+C:\Users\samad\RiderProjects\Stom.Application\bin\Debug\net8.0\Stom.Domain.dll
+C:\Users\samad\RiderProjects\Stom.Application\bin\Debug\net8.0\Stom.Domain.pdb
+C:\Users\samad\RiderProjects\Stom.Application\obj\Debug\net8.0\Stom.Application.csproj.AssemblyReference.cache
+C:\Users\samad\RiderProjects\Stom.Application\obj\Debug\net8.0\Stom.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samad\RiderProjects\Stom.Application\obj\Debug\net8.0\Stom.Application.AssemblyInfoInputs.cache
+C:\Users\samad\RiderProjects\Stom.Application\obj\Debug\net8.0\Stom.Application.AssemblyInfo.cs
+C:\Users\samad\RiderProjects\Stom.Application\obj\Debug\net8.0\Stom.Application.csproj.CoreCompileInputs.cache
+C:\Users\samad\RiderProjects\Stom.Application\obj\Debug\net8.0\Stom.App.06B844C0.Up2Date
+C:\Users\samad\RiderProjects\Stom.Application\obj\Debug\net8.0\Stom.Application.dll
+C:\Users\samad\RiderProjects\Stom.Application\obj\Debug\net8.0\refint\Stom.Application.dll
+C:\Users\samad\RiderProjects\Stom.Application\obj\Debug\net8.0\Stom.Application.pdb
+C:\Users\samad\RiderProjects\Stom.Application\obj\Debug\net8.0\ref\Stom.Application.dll
