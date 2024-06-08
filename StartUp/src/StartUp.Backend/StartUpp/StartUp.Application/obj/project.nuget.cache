@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "YtQIRzJp/w/9ZY3AtldRUvg97AudAfYK6zORY5htk+djTjwQ68JSgqxs9jGDNs8sTOuFSSNuWnRF5NVBOxosiQ==",
+  "dgSpecHash": "Q2y5XRaCAmnxSB7BepwNueg0DY0yvcy9bv1lw54sACf9YeBEL66fMyK3eiJt1G+WKIgk+V6j96D8QfRNfIyIqA==",
   "success": true,
   "projectFilePath": "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Application\\StartUp.Application.csproj",
-=======
-  "dgSpecHash": "QJd12ZMF74PwirWYB6+jT1axRZMPv9LGsTnFeRHRFyaLRGBOSkgypIY+3vJKiI714oCx/dltdS1qZ/WK9J7pmQ==",
-  "success": true,
-  "projectFilePath": "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Application\\StartUp.Application.csproj",
->>>>>>> ed9f5cb9d84fa6fb0e0e94ef15bbbe4b6b6ad267
   "expectedPackageFiles": [],
   "logs": []
 }

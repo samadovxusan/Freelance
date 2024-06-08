@@ -1,5 +1,5 @@
+using Domain.Entites;
 using Microsoft.EntityFrameworkCore;
-
 namespace StartUp.Persistence.DbContexts;
 
 public class AppDbContext:DbContext
@@ -12,5 +12,6 @@ public class AppDbContext:DbContext
     {
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
     }
-    
+
+    public DbSet<User> Users => Set<User>();
 }

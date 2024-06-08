@@ -1,0 +1,16 @@
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Application\bin\Debug\net8.0\StartUp.Application.deps.json
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Application\bin\Debug\net8.0\StartUp.Application.dll
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Application\bin\Debug\net8.0\StartUp.Application.pdb
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Application\bin\Debug\net8.0\Domain.dll
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Application\bin\Debug\net8.0\Domain.pdb
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Application\obj\Debug\net8.0\StartUp.Application.csproj.AssemblyReference.cache
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Application\obj\Debug\net8.0\StartUp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Application\obj\Debug\net8.0\StartUp.Application.AssemblyInfoInputs.cache
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Application\obj\Debug\net8.0\StartUp.Application.AssemblyInfo.cs
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Application\obj\Debug\net8.0\StartUp.Application.csproj.CoreCompileInputs.cache
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Application\obj\Debug\net8.0\StartUp.Application.sourcelink.json
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Application\obj\Debug\net8.0\StartUp..BD296B03.Up2Date
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Application\obj\Debug\net8.0\StartUp.Application.dll
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Application\obj\Debug\net8.0\refint\StartUp.Application.dll
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Application\obj\Debug\net8.0\StartUp.Application.pdb
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\StartUp.Application\obj\Debug\net8.0\ref\StartUp.Application.dll

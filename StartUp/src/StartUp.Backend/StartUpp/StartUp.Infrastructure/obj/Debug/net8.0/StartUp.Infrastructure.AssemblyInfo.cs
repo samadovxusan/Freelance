@@ -13,11 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StartUp.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18ee00bb2e3bc401108f48e3144c51d7d9e3907a")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90c983a0836a28d5cf8b208660f1ad092414dc59")]
->>>>>>> ed9f5cb9d84fa6fb0e0e94ef15bbbe4b6b6ad267
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08abc89d3f5ab4e03275d76d7aba7cb8af37fa71")]
 [assembly: System.Reflection.AssemblyProductAttribute("StartUp.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StartUp.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

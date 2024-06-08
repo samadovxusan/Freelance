@@ -1,0 +1,12 @@
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Domain\bin\Debug\net8.0\Domain.dll
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Domain\obj\Debug\net8.0\Domain.dll
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Domain\obj\Debug\net8.0\ref\Domain.dll

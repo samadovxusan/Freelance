@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "jOFBu3F+7cSedooUSIFaqjqKCKBGt7NvV/JU9EEYSEZhibp+GZf7mXrVPJnuzTA16UkOESPZpzQKHs3Sg1NiJg==",
+  "dgSpecHash": "0h4dhzLgfUi1c2lDob1QxA0gm8NZ529LmmMbNkUhk/dRM/hbL0d3GO32BNZE1wpuk18kRHnA/GATi9HEtlOCow==",
   "success": true,
   "projectFilePath": "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Persistence\\StartUp.Persistence.csproj",
-=======
-  "dgSpecHash": "IJukT48Qz4zZoqk+iCRRkhIh7q9nZhzV8xHDX6pSdP/RA9rumuK2sHZlSHPKTXv1MLFyN5gg7FvtZbu92/oFow==",
-  "success": true,
-  "projectFilePath": "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Persistence\\StartUp.Persistence.csproj",
->>>>>>> ed9f5cb9d84fa6fb0e0e94ef15bbbe4b6b6ad267
   "expectedPackageFiles": [
     "C:\\Users\\samad\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\samad\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
@@ -22,7 +16,6 @@
     "C:\\Users\\samad\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.0-preview.4.24267.1\\microsoft.entityframeworkcore.analyzers.9.0.0-preview.4.24267.1.nupkg.sha512",
     "C:\\Users\\samad\\.nuget\\packages\\microsoft.entityframeworkcore.design\\9.0.0-preview.4.24267.1\\microsoft.entityframeworkcore.design.9.0.0-preview.4.24267.1.nupkg.sha512",
     "C:\\Users\\samad\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.0-preview.4.24267.1\\microsoft.entityframeworkcore.relational.9.0.0-preview.4.24267.1.nupkg.sha512",
-    "C:\\Users\\samad\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.6\\microsoft.entityframeworkcore.tools.8.0.6.nupkg.sha512",
     "C:\\Users\\samad\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.0-preview.4.24266.19\\microsoft.extensions.caching.abstractions.9.0.0-preview.4.24266.19.nupkg.sha512",
     "C:\\Users\\samad\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.0-preview.4.24266.19\\microsoft.extensions.caching.memory.9.0.0-preview.4.24266.19.nupkg.sha512",
     "C:\\Users\\samad\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0-preview.4.24266.19\\microsoft.extensions.configuration.abstractions.9.0.0-preview.4.24266.19.nupkg.sha512",

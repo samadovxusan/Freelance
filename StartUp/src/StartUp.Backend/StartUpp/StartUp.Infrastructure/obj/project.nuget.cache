@@ -1,14 +1,24 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "nG/6U7YPY0rFXyPHifbV4S1kZ2BxBFGiEuhZxAPX9uQL5KsCHx1AMQR5rWJ5Bsmpuhffx7CcrBbfAkVH9E0J5w==",
+  "dgSpecHash": "iWobOsa7J1jf64BykJJR5pFl2yAj83wnGWTYJwy60yR5x5o0pbfsTb/WO53pd15BTJdgNLf+7BA/+HMMOBqFKQ==",
   "success": true,
   "projectFilePath": "C:\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Infrastructure\\StartUp.Infrastructure.csproj",
-=======
-  "dgSpecHash": "82YrfeFGxd8v/WYI2ogVqcDuANWH6PgwVq/Vjn7g71va/LzYeo63oFvqEaB7MpkcpT4Vazacc5hf7Qf6kQSkYw==",
-  "success": true,
-  "projectFilePath": "C:\\Job\\Freelance\\StartUp\\src\\StartUp.Backend\\StartUpp\\StartUp.Infrastructure\\StartUp.Infrastructure.csproj",
->>>>>>> ed9f5cb9d84fa6fb0e0e94ef15bbbe4b6b6ad267
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\samad\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.4\\microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
+    "C:\\Users\\samad\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.4\\microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512",
+    "C:\\Users\\samad\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.4\\microsoft.entityframeworkcore.analyzers.8.0.4.nupkg.sha512",
+    "C:\\Users\\samad\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.4\\microsoft.entityframeworkcore.relational.8.0.4.nupkg.sha512",
+    "C:\\Users\\samad\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\samad\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "C:\\Users\\samad\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\samad\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\samad\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\samad\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\samad\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\samad\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\samad\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\samad\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
+    "C:\\Users\\samad\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.4\\npgsql.entityframeworkcore.postgresql.8.0.4.nupkg.sha512"
+  ],
   "logs": []
 }

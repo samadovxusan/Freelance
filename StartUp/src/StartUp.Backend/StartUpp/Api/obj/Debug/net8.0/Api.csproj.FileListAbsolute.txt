@@ -1,0 +1,8 @@
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Api\obj\Debug\net8.0\Api.csproj.AssemblyReference.cache
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Api\obj\Debug\net8.0\Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Api\obj\Debug\net8.0\Api.AssemblyInfoInputs.cache
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Api\obj\Debug\net8.0\Api.AssemblyInfo.cs
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Api\obj\Debug\net8.0\Api.csproj.CoreCompileInputs.cache
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Api\obj\Debug\net8.0\Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Api\obj\Debug\net8.0\Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Freelance\StartUp\src\StartUp.Backend\StartUpp\Api\obj\Debug\net8.0\Api.sourcelink.json
