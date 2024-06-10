@@ -13,6 +13,9 @@ public static partial class HostConfiguration
     {
         builder
             .AddPersistence()
+            .AddUserInfrastructure()
+            .AddMappers()
+            .AddMediator()
             .AddExposers()
             .AddDevTools();
             

@@ -6,4 +6,13 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Stom.Application\Stom.Application.csproj" />
+      <ProjectReference Include="..\Stom.Persistence\Stom.Persistence.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="12.3.0" />
+    </ItemGroup>
+
 </Project>

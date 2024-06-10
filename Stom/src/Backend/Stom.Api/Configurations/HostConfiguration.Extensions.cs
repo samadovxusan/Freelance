@@ -1,8 +1,10 @@
 using System.Reflection;
-using System.Text;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Stom.Application.Users.Services;
+using Stom.Infrastructure.Users.Services;
 using Stom.Persistence.DbContexts;
+using Stom.Persistence.Repositories;
+using Stom.Persistence.Repositories.Interface;
 
 namespace Stom.Api.Configurations;
 
@@ -16,10 +18,31 @@ public static partial class HostConfiguration
         Assemblies.Add(Assembly.GetExecutingAssembly());
     }
 
+    public static WebApplicationBuilder AddMappers(this WebApplicationBuilder builder)
+    {
+        builder.Services.AddAutoMapper(Assemblies);
+        return builder;
+    }
+
+    public static WebApplicationBuilder AddMediator(this WebApplicationBuilder builder)
+    {
+        builder.Services.AddMediatR(conf => {conf.RegisterServicesFromAssemblies(Assemblies.ToArray());});
+        
+        return builder;
+    }
+
     public static WebApplicationBuilder AddPersistence(this WebApplicationBuilder builder)
     {
         builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnectionString")));
+        return builder;
+    }
+    
+
+    public static WebApplicationBuilder AddUserInfrastructure(this WebApplicationBuilder builder)
+    {
+        builder.Services.AddScoped<IUserService, UserService>();
+        builder.Services.AddScoped<IUserRepository, UserRepository>();
         return builder;
     }
 
