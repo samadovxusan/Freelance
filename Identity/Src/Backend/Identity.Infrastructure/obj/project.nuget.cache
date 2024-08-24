@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ua2jhwVNxeAAFcivMcyklwb+5vxAo3Adf1x0CzBrYNqGtNoObLf6pzqcWJRJDP61K6l+NvDmmjZdvYWsW4MjRQ==",
+  "dgSpecHash": "TQvt0DfANRFlEnhUU5zj74tLibwY3+m8PQPDs3FAKSv3P/T9zkUitPCxNy+CZzSazjsH5Dpxn8gRReOjCTZ71Q==",
   "success": true,
-  "projectFilePath": "D:\\Freelance\\Identity\\Src\\Backend\\Identity.Infrastructure\\Identity.Infrastructure.csproj",
+  "projectFilePath": "C:\\Freelance\\Identity\\Src\\Backend\\Identity.Infrastructure\\Identity.Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

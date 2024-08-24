@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lorby.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+844b094940d8d780d9e60b733dd8a39ef469a395")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c32e4711d47cd7616dc7c1c57e3e2a43b107259e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lorby.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lorby.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

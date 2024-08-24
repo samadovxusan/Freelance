@@ -25,15 +25,17 @@ public class AuthService(AppDbContext dbContext, IMapper mapper, IConfiguration 
         }
     }
 
-    public async ValueTask<string> Login(Login login)
+    public async ValueTask<LoginDto> Login(Login login)
     {
+        var token = new LoginDto();
         var newUser = await dbContext.Users.FirstOrDefaultAsync(x => x.Password == login.Password && x.Email == login.Email);
-        if(newUser == null) 
+        if(newUser == null)
         {
-            return "Not Faund User";
+            token.Succes = false;
+            return token;
         }
         var jwtToken = new IdentityTokenGeneratorService(configuration);
-        var resust = jwtToken.GenerateToken(newUser);
-        return await resust;
+        token.Token = await jwtToken.GenerateToken(newUser); 
+        return token;
     }
 }

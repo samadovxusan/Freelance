@@ -1,0 +1,16 @@
+C:\Freelance\English\src\Baskend.English\Application\bin\Debug\net8.0\Application.deps.json
+C:\Freelance\English\src\Baskend.English\Application\bin\Debug\net8.0\Application.dll
+C:\Freelance\English\src\Baskend.English\Application\bin\Debug\net8.0\Application.pdb
+C:\Freelance\English\src\Baskend.English\Application\bin\Debug\net8.0\Domain.dll
+C:\Freelance\English\src\Baskend.English\Application\bin\Debug\net8.0\Domain.pdb
+C:\Freelance\English\src\Baskend.English\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Freelance\English\src\Baskend.English\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Freelance\English\src\Baskend.English\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Freelance\English\src\Baskend.English\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Freelance\English\src\Baskend.English\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Freelance\English\src\Baskend.English\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\Freelance\English\src\Baskend.English\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\Freelance\English\src\Baskend.English\Application\obj\Debug\net8.0\Application.dll
+C:\Freelance\English\src\Baskend.English\Application\obj\Debug\net8.0\refint\Application.dll
+C:\Freelance\English\src\Baskend.English\Application\obj\Debug\net8.0\Application.pdb
+C:\Freelance\English\src\Baskend.English\Application\obj\Debug\net8.0\ref\Application.dll
