@@ -6,5 +6,5 @@ namespace Persistence.Repositories.Interface;
 public interface IAuthService
 {
     ValueTask<Boolean> Register (UserDto register);
-    ValueTask<string> Login (Login login);
+    ValueTask<LoginDto> Login (Login login);
 }

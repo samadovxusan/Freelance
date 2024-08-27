@@ -10,3 +10,15 @@ D:\Freelance\Lorby\Lorby.Domain\obj\Debug\net8.0\Lorby.Domain.dll
 D:\Freelance\Lorby\Lorby.Domain\obj\Debug\net8.0\refint\Lorby.Domain.dll
 D:\Freelance\Lorby\Lorby.Domain\obj\Debug\net8.0\Lorby.Domain.pdb
 D:\Freelance\Lorby\Lorby.Domain\obj\Debug\net8.0\ref\Lorby.Domain.dll
+C:\Freelance\Lorby\Lorby.Domain\bin\Debug\net8.0\Lorby.Domain.deps.json
+C:\Freelance\Lorby\Lorby.Domain\bin\Debug\net8.0\Lorby.Domain.dll
+C:\Freelance\Lorby\Lorby.Domain\bin\Debug\net8.0\Lorby.Domain.pdb
+C:\Freelance\Lorby\Lorby.Domain\obj\Debug\net8.0\Lorby.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Freelance\Lorby\Lorby.Domain\obj\Debug\net8.0\Lorby.Domain.AssemblyInfoInputs.cache
+C:\Freelance\Lorby\Lorby.Domain\obj\Debug\net8.0\Lorby.Domain.AssemblyInfo.cs
+C:\Freelance\Lorby\Lorby.Domain\obj\Debug\net8.0\Lorby.Domain.csproj.CoreCompileInputs.cache
+C:\Freelance\Lorby\Lorby.Domain\obj\Debug\net8.0\Lorby.Domain.sourcelink.json
+C:\Freelance\Lorby\Lorby.Domain\obj\Debug\net8.0\Lorby.Domain.dll
+C:\Freelance\Lorby\Lorby.Domain\obj\Debug\net8.0\refint\Lorby.Domain.dll
+C:\Freelance\Lorby\Lorby.Domain\obj\Debug\net8.0\Lorby.Domain.pdb
+C:\Freelance\Lorby\Lorby.Domain\obj\Debug\net8.0\ref\Lorby.Domain.dll

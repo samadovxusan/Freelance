@@ -5799,42 +5799,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\samat\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\samad\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Freelance\\Lorby\\Lorby.Infrastructure\\Lorby.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Freelance\\Lorby\\Lorby.Infrastructure\\Lorby.Infrastructure.csproj",
       "projectName": "Lorby.Infrastructure",
-      "projectPath": "D:\\Freelance\\Lorby\\Lorby.Infrastructure\\Lorby.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\samat\\.nuget\\packages\\",
-      "outputPath": "D:\\Freelance\\Lorby\\Lorby.Infrastructure\\obj\\",
+      "projectPath": "C:\\Freelance\\Lorby\\Lorby.Infrastructure\\Lorby.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\samad\\.nuget\\packages\\",
+      "outputPath": "C:\\Freelance\\Lorby\\Lorby.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\samat\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\samad\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Freelance\\Lorby\\Lorby.Application\\Lorby.Application.csproj": {
-              "projectPath": "D:\\Freelance\\Lorby\\Lorby.Application\\Lorby.Application.csproj"
+            "C:\\Freelance\\Lorby\\Lorby.Application\\Lorby.Application.csproj": {
+              "projectPath": "C:\\Freelance\\Lorby\\Lorby.Application\\Lorby.Application.csproj"
             },
-            "D:\\Freelance\\Lorby\\Lorby.Persistence\\Lorby.Persistence.csproj": {
-              "projectPath": "D:\\Freelance\\Lorby\\Lorby.Persistence\\Lorby.Persistence.csproj"
+            "C:\\Freelance\\Lorby\\Lorby.Persistence\\Lorby.Persistence.csproj": {
+              "projectPath": "C:\\Freelance\\Lorby\\Lorby.Persistence\\Lorby.Persistence.csproj"
             }
           }
         }
@@ -5870,7 +5863,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

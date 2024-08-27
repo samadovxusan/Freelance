@@ -9,6 +9,7 @@ public static partial class  HostConfigurations
             .AddCache()
             .AddIdentityInfrastructure()
             .AddDevTools()
+            .AddCors()
             .AddExposers()
             .AddMappers();   
         return new ValueTask<WebApplicationBuilder>(builder);
@@ -16,6 +17,7 @@ public static partial class  HostConfigurations
     
     public static ValueTask<WebApplication> ConfigureAsnyc(this WebApplication  app)
     {
+        app.UseCors();
         app
             .UseDevtools()
             .UseExposers();

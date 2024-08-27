@@ -1,6 +1,8 @@
 ﻿using System.Text;
 using Application.Users.Mappers;
 using Application.Users.UserSevices;
+using Feedback.Analyzer.Infrastructure.Common.Settings;
+using Infrastructure.Common;
 using Infrastructure.Common.Entity.Services;
 using Infrastructure.Users;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -112,7 +114,44 @@ public static partial class  HostConfigurations
         builder.Services.AddAutoMapper(typeof(UserMapper));
         return builder;
     }
+    private static WebApplicationBuilder AddCors(this WebApplicationBuilder builder)
+    {
+        // Register settings
+        builder.Services.Configure<CorsSettings>(builder.Configuration.GetSection(nameof(CorsSettings)));
+        var corsSettings = builder.Configuration.GetSection(nameof(CorsSettings)).Get<CorsSettings>()
+                           ?? throw new ApplicationException("Cors settings are not configured");
+        
+        builder.Services.AddCors(options => options.AddPolicy("AllowSpecificOrigin",
+            policy =>
+            {
+                policy.WithOrigins(corsSettings.AllowedOrigins);
+                    
+                if(corsSettings.AllowAnyHeaders)
+                    policy.AllowAnyHeader();
+                
+                if(corsSettings.AllowAnyMethods)
+                    policy.AllowAnyMethod();
+                
+                if(corsSettings.AllowCredentials)
+                    policy.AllowCredentials();
+            }
+        ));
+
+        return builder;
+    }
     
+    private static WebApplication UseCors(this WebApplication app)
+    {
+        app.UseCors(options =>
+        {
+            options.AllowAnyHeader();
+            options.AllowAnyMethod();
+            options.AllowAnyOrigin();
+        });
+
+        return app;
+    }
+
     private static WebApplication UseDevtools(this WebApplication app)
     {
         app.UseSwagger();
