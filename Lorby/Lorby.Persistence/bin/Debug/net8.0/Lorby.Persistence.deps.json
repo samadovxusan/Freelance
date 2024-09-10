@@ -1238,7 +1238,10 @@
       },
       "Lorby.Domain/1.0.0": {
         "runtime": {
-          "Lorby.Domain.dll": {}
+          "Lorby.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

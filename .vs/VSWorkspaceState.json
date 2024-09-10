@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Lorby",
-    "\\Lorby\\Lorby.Api",
     "\\Lorby\\Lorby.Api\\Controller",
-    "\\Lorby\\Lorby.Persistence"
+    "\\Lorby\\Lorby.Persistence",
+    "\\Stom\\src",
+    "\\Stom\\src\\Backend",
+    "\\Stom\\src\\Backend\\Stom.Api"
   ],
-  "SelectedNode": "\\Lorby\\Lorby.Persistence",
   "PreviewInSolutionExplorer": false
 }

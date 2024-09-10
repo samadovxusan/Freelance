@@ -918,12 +918,18 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.3"
         },
         "runtime": {
-          "Lorby.Application.dll": {}
+          "Lorby.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Lorby.Domain/1.0.0": {
         "runtime": {
-          "Lorby.Domain.dll": {}
+          "Lorby.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Lorby.Persistence/1.0.0": {
@@ -934,7 +940,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2"
         },
         "runtime": {
-          "Lorby.Persistence.dll": {}
+          "Lorby.Persistence.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
