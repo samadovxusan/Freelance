@@ -1,6 +1,7 @@
 ﻿using Application.Users.Models;
 using Application.Users.UserSevices;
 using Domain.Entities;
+using Lorby.Api.Extentions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,7 +10,7 @@ namespace Lorby.Api.Controller;
 [Route("api/[controller]/[action]")]
 [ApiController]
 [Authorize]
-public class UserController(IUserService userService) : ControllerBase
+public class UserController(IUserService userService,IWebHostEnvironment _webHostEnvironment) : ControllerBase
 {
     [HttpGet]
     [ResponseCache(Duration = 40)]
@@ -27,9 +28,11 @@ public class UserController(IUserService userService) : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> Post([FromBody] UserDto user, CancellationToken cancellationToken = default)
+    public async Task<IActionResult> Post([FromForm] UserDto user, IFormFile imageUrl, CancellationToken cancellationToken = default)
     {
-        var result = await userService.CreateAsync(user, cancellationToken);
+        var Extention = new MethodExtention(_webHostEnvironment);
+        var picturepath = await Extention.AddPictureAndGetPath(imageUrl);
+        var result = await userService.CreateAsync(user,picturepath, cancellationToken);
         return Ok(result);
     }
 

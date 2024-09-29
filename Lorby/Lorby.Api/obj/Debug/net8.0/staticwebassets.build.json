@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "v6V0IUPmYRGaiYWXlsR9+Xwgl2tjot2aIj8Suf26hxI=",
+  "Hash": "8TWe2OZ+Vjr3dGmko/z6EFooLd1gQXBVVg618hW5RQM=",
   "Source": "Lorby.Api",
   "BasePath": "_content/Lorby.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Lorby.Api\\wwwroot",
+      "Source": "Lorby.Api",
+      "ContentRoot": "C:\\Freelance\\Lorby\\Lorby.Api\\wwwroot\\",
+      "BasePath": "_content/Lorby.Api",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

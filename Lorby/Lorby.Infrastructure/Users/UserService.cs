@@ -23,9 +23,10 @@ public class UserService(IMapper mapper, IUserRepository userRepository ,AppDbCo
         return userRepository.GetByIdAsync(id, cancellationToken);
     }
 
-    public ValueTask<User> CreateAsync(UserDto user, CancellationToken cancellationToken = default)
+    public ValueTask<User> CreateAsync(UserDto user, string imageUrl, CancellationToken cancellationToken = default)
     {
         var result = mapper.Map<User>(user);
+        result.ImageUrl = imageUrl;
         return userRepository.CreateAsync(result, cancellationToken);
     }
 

@@ -248,3 +248,4 @@ C:\Freelance\Lorby\Lorby.Api\obj\Debug\net8.0\refint\Lorby.Api.dll
 C:\Freelance\Lorby\Lorby.Api\obj\Debug\net8.0\Lorby.Api.pdb
 C:\Freelance\Lorby\Lorby.Api\obj\Debug\net8.0\Lorby.Api.genruntimeconfig.cache
 C:\Freelance\Lorby\Lorby.Api\obj\Debug\net8.0\ref\Lorby.Api.dll
+C:\Freelance\Lorby\Lorby.Api\bin\Debug\net8.0\Lorby.Api.staticwebassets.runtime.json

@@ -1,9 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Freelance\\Lorby\\",
+  "WorkspaceRootPath": "C:\\Freelance\\Lorby\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{043D5776-F60A-4903-8ADA-7308E61A6A24}|Lorby.Api\\Lorby.Api.csproj|c:\\freelance\\lorby\\lorby.api\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043D5776-F60A-4903-8ADA-7308E61A6A24}|Lorby.Api\\Lorby.Api.csproj|solutionrelative:lorby.api\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043D5776-F60A-4903-8ADA-7308E61A6A24}|Lorby.Api\\Lorby.Api.csproj|c:\\freelance\\lorby\\lorby.api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043D5776-F60A-4903-8ADA-7308E61A6A24}|Lorby.Api\\Lorby.Api.csproj|solutionrelative:lorby.api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,12 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AQIAAF0TAAAAAAAAAAD4v2YTAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-03-29T05:39:43.35Z",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Freelance\\Lorby\\Lorby.Api\\Controller\\UserController.cs",
+              "RelativeDocumentMoniker": "Lorby.Api\\Controller\\UserController.cs",
+              "ToolTip": "C:\\Freelance\\Lorby\\Lorby.Api\\Controller\\UserController.cs",
+              "RelativeToolTip": "Lorby.Api\\Controller\\UserController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T05:36:45.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Freelance\\Lorby\\Lorby.Api\\Controller\\AuthController.cs",
+              "RelativeDocumentMoniker": "Lorby.Api\\Controller\\AuthController.cs",
+              "ToolTip": "C:\\Freelance\\Lorby\\Lorby.Api\\Controller\\AuthController.cs",
+              "RelativeToolTip": "Lorby.Api\\Controller\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T05:36:44.726Z",
               "EditorCaption": ""
             }
           ]
