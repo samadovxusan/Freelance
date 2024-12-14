@@ -10,4 +10,27 @@
       <ProjectReference Include="..\BookEasy.Domain\BookEasy.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Booking\Commands\" />
+      <Folder Include="Booking\Mappers\" />
+      <Folder Include="Booking\Models\" />
+      <Folder Include="Booking\Queries\" />
+      <Folder Include="Booking\Service\" />
+      <Folder Include="Service\Commands\" />
+      <Folder Include="Service\Mappers\" />
+      <Folder Include="Service\Models\" />
+      <Folder Include="Service\Queries\" />
+      <Folder Include="Service\Service\" />
+      <Folder Include="Staff\Commands\" />
+      <Folder Include="Staff\Mappers\" />
+      <Folder Include="Staff\Models\" />
+      <Folder Include="Staff\Queries\" />
+      <Folder Include="Staff\Service\" />
+      <Folder Include="User\Commands\" />
+      <Folder Include="User\Mappers\" />
+      <Folder Include="User\Models\" />
+      <Folder Include="User\Queries\" />
+      <Folder Include="User\Service\" />
+    </ItemGroup>
+
 </Project>

@@ -1,50 +1,41 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BookEasy.Persistence.DataContext;
+using BookEasy.Persistence.Repositories.Interface;
+using Microsoft.EntityFrameworkCore;
 
 namespace BookEasy.Persistence.Repositories;
 
-public class EntityRepositoryBase<TEntity, TContext> where TEntity : class where TContext:DbContext
+public class EntityRepositoryBase<T>(AppDbContext context,DbSet<T> dbSet):IEntityRepositoryBase<T> where T :class    
 {
-    private readonly TContext _context;
-    public EntityRepositoryBase(TContext context) => _context = context;
-    
-    public async ValueTask<TEntity> Create(TEntity entity)
+    public async ValueTask<T> GetByIdAsync(Guid id)
     {
-        _context.Set<TEntity>().Add(entity);
-        await _context.SaveChangesAsync();
-        return entity;
-    }
-    public async ValueTask<TEntity> Get(Guid Id)
-    {
-        var get = await _context.Set<TEntity>().FindAsync(Id);
-        return get;
+        var result = await dbSet.FindAsync(id);
+        return result;
     }
 
-    public async ValueTask<TEntity> Delete(Guid id)
+    public async ValueTask<ICollection<T>> GetAllAsync()
     {
-        var get = await _context.Set<TEntity>().FindAsync(id);
-        _context.Set<TEntity>().Remove(get);
-        await _context.SaveChangesAsync();
-        return get;
-
-
+        var result = await dbSet.ToListAsync();
+        return result;
     }
 
-    public async ValueTask<ICollection<TEntity>> GetAllAsync()
+    public async ValueTask<bool> AddAsync(T entity)
     {
-        return await _context.Set<TEntity>().ToListAsync();
+        await dbSet.AddAsync(entity);
+        await context.SaveChangesAsync();
+        return true;
     }
 
-    public async ValueTask<TEntity> GetById(Guid id)
+    public async ValueTask<T> UpdateAsync(T entity)
     {
-        return await _context.Set<TEntity>().FindAsync(id);
-    }
-
-    public async ValueTask<TEntity> Update(int id, TEntity entity)
-    {
-        _context.Entry(entity).State = EntityState.Modified;
-        await _context.SaveChangesAsync();
+        dbSet.Update(entity);
+        await context.SaveChangesAsync();
         return entity;
     }
 
-    
+    public async ValueTask<bool> DeleteAsync(T entity)
+    {
+        dbSet.Remove(entity);
+        await context.SaveChangesAsync();
+        return true;
+    }
 }
